@@ -31,10 +31,19 @@ export const flowConfig: Config = {
           name: "Reddit",
           url: "https://reddit.com",
         },
+
+        {
+          name: "hn",
+          url: "https://news.ycombinator.com",
+        },
+        {
+          name: "Lobsters",
+          url: "https://lobste.rs",
+        },
       ],
     },
     {
-      type: "Work",
+      type: "Tools",
       color: "teal-",
       links: [
         {
@@ -52,6 +61,18 @@ export const flowConfig: Config = {
         {
           name: "Gmail",
           url: "https://mail.google.com",
+        },
+        {
+          name: "Perplexity",
+          url: "https://perplexity.ai"
+        },
+        {
+          name: "Notion",
+          url: "https://notion.so"
+        },
+        {
+          name: "Excalidraw",
+          url: "https://excalidraw.com/",
         },
       ],
     },
@@ -71,6 +92,10 @@ export const flowConfig: Config = {
           name: "Manga",
           url: "https://mangareader.to",
         },
+        {
+          name: "Twitch",
+          url: "https://twitch.tv",
+        },
       ],
     },
     {
@@ -88,6 +113,18 @@ export const flowConfig: Config = {
         {
           name: "Fontshare",
           url: "https://fontshare.com/",
+        },
+        {
+          name: "Repo",
+          url: "https://repo.new",
+        },
+        {
+          name: "Uno",
+          url: "https://unocss.dev/play",
+        },
+        {
+          name: "Typewolf",
+          url: "https://typewolf.com",
         },
       ],
     },
@@ -110,6 +147,14 @@ export const flowConfig: Config = {
         {
           name: "LH:5173",
           url: "http://localhost:5173",
+        },
+        {
+          name: "LH:8000",
+          url: "http://localhost:8000",
+        },
+        {
+          name: "LH:8080",
+          url: "http://localhost:8080",
         },
       ],
     },
